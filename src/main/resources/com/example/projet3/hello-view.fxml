@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="817.0" prefWidth="1234.0" style="-fx-background-color: #def5e0;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="-1.0" layoutY="-5.0" prefHeight="817.0" prefWidth="223.0" style="-fx-background-color: #037344;">
+         <children>
+            <ImageView fitHeight="118.0" fitWidth="100.0" layoutX="53.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/OIP%20(17).jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="6.0" layoutY="348.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="198.0" text="Dashboard">
+               <font>
+                  <Font name="Frank Ruehl CLM Bold" size="18.0" />
+               </font></Button>
+            <Button layoutX="8.0" layoutY="409.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="198.0" text="flight">
+               <font>
+                  <Font name="Frank Ruehl CLM Bold" size="18.0" />
+               </font></Button>
+            <Button layoutX="7.0" layoutY="466.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="198.0" text="wallet">
+               <font>
+                  <Font name="Frank Ruehl CLM Bold" size="18.0" />
+               </font></Button>
+            <Button layoutX="6.0" layoutY="530.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="198.0" text="Rapport">
+               <font>
+                  <Font name="Frank Ruehl CLM Bold" size="18.0" />
+               </font></Button>
+            <Button layoutX="8.0" layoutY="590.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="198.0" text="parametre">
+               <font>
+                  <Font name="Frank Ruehl CLM Bold" size="18.0" />
+               </font></Button>
+            <Label layoutX="24.0" layoutY="183.0" text="mohamed camara" textFill="WHITE">
+               <font>
+                  <Font name="Frank Ruehl CLM Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="12.0" layoutY="209.0" text="mohamed camar23@gmail.com" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+            </Label>
+            <Separator layoutX="12.0" layoutY="268.0" prefWidth="200.0" />
+            <Separator layoutX="7.0" layoutY="674.0" prefWidth="200.0" />
+            <ImageView fitHeight="27.0" fitWidth="18.0" layoutX="32.0" layoutY="359.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/3917033.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="18.0" fitWidth="23.0" layoutX="32.0" layoutY="477.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/3917244.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="27.0" fitWidth="23.0" layoutX="27.0" layoutY="600.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/parametre.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="22.0" fitWidth="23.0" layoutX="27.0" layoutY="541.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/3094851.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="32.0" fitWidth="23.0" layoutX="29.0" layoutY="418.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/723955.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="32.0" fitWidth="23.0" layoutX="184.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/3916864.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="45.0" fitWidth="39.0" layoutX="8.0" layoutY="716.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/OIP%20(17).jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="45.0" fitWidth="39.0" layoutX="59.0" layoutY="716.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/th%20(4).jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="39.0" fitWidth="36.0" layoutX="112.0" layoutY="716.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/OIP%20(11).jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="18.0" layoutY="683.0" text="Les derniers passagers" textFill="WHITE">
+               <font>
+                  <Font name="Noto Sans Armenian Bold" size="14.0" />
+               </font>
+            </Label>
+            <Circle fill="WHITE" layoutX="179.0" layoutY="736.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+            <Label layoutX="163.0" layoutY="725.0" text="99 +">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="66.0" layoutY="225.0" text="Assistant" textFill="WHITE">
+               <font>
+                  <Font name="Vivaldi Italic" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="578.0" layoutY="14.0" prefHeight="150.0" prefWidth="281.0" style="-fx-background-color: #6e9767;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="223.0" layoutX="59.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/R.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="8.0" layoutY="14.0" text="Airbus 420" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="41.0" text="424$" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <AnchorPane layoutX="273.0" layoutY="13.0" prefHeight="152.0" prefWidth="287.0" style="-fx-background-color: #037344;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="223.0" layoutX="65.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/R.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="14.0" layoutY="24.0" text="BOEING 420" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="28.0" layoutY="56.0" text="452$" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <AnchorPane layoutX="242.0" layoutY="202.0" prefHeight="84.0" prefWidth="559.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Label layoutX="28.0" layoutY="-6.0" text="Lasts trips" textFill="#131313">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+            </Label>
+            <Label layoutX="28.0" layoutY="32.0" text="informations completes">
+               <font>
+                  <Font name="Cambria" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="28.0" layoutY="60.0" text="la personne">
+               <font>
+                  <Font name="Elephant" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="205.0" layoutY="60.0" text="vol">
+               <font>
+                  <Font name="Vivaldi Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="511.0" layoutY="57.0" text="prix">
+               <font>
+                  <Font name="Vivaldi Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="353.0" layoutY="57.0" text="place">
+               <font>
+                  <Font name="Vivaldi Italic" size="18.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <AnchorPane layoutX="242.0" layoutY="293.0" prefHeight="62.0" prefWidth="559.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Circle fill="WHITE" layoutX="33.0" layoutY="31.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+            <ImageView fitHeight="39.0" fitWidth="27.0" layoutX="20.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/OIP%20(17).jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="68.0" layoutY="22.0" text="med camara">
+               <font>
+                  <Font name="Vivaldi Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="364.0" layoutY="22.0" text="1">
+               <font>
+                  <Font name="Vivaldi Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="504.0" layoutY="21.0" text="321 $">
+               <font>
+                  <Font name="Vivaldi Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="179.0" layoutY="22.0" prefHeight="20.0" prefWidth="81.0" text="Boeing 233">
+               <font>
+                  <Font name="Vivaldi Italic" size="18.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <AnchorPane layoutX="242.0" layoutY="364.0" prefHeight="62.0" prefWidth="559.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Circle fill="WHITE" layoutX="32.0" layoutY="31.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+            <ImageView fitHeight="39.0" fitWidth="27.0" layoutX="19.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/OIP%20(17).jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="71.0" layoutY="22.0" prefHeight="24.0" prefWidth="71.0" text="aly camara">
+               <font>
+                  <Font name="Vivaldi Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="161.0" layoutY="21.0" prefHeight="24.0" prefWidth="184.0" text="AIR BUSS 233">
+               <font>
+                  <Font name="Vivaldi Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="505.0" layoutY="21.0" prefHeight="24.0" prefWidth="39.0" text="353 $">
+               <font>
+                  <Font name="Vivaldi Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="365.0" layoutY="21.0" text="2">
+               <font>
+                  <Font name="Vivaldi Italic" size="18.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <AnchorPane layoutX="242.0" layoutY="440.0" prefHeight="306.0" prefWidth="310.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <PieChart layoutX="18.0" layoutY="70.0" prefHeight="217.0" prefWidth="271.0" />
+            <Label layoutX="121.0" layoutY="16.0" text="Statistique">
+               <font>
+                  <Font name="Vivaldi Italic" size="18.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <AnchorPane layoutX="571.0" layoutY="450.0" prefHeight="296.0" prefWidth="611.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <LineChart layoutX="14.0" layoutY="47.0" prefHeight="242.0" prefWidth="594.0">
+              <xAxis>
+                <CategoryAxis side="BOTTOM" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis side="LEFT" />
+              </yAxis>
+            </LineChart>
+            <Label layoutX="250.0" layoutY="14.0" text="Statistique">
+               <font>
+                  <Font name="Vivaldi Italic" size="18.0" />
+               </font></Label>
+         </children></AnchorPane>
+      <AnchorPane layoutX="826.0" layoutY="174.0" prefHeight="266.0" prefWidth="310.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <BarChart layoutX="3.0" layoutY="14.0" prefHeight="250.0" prefWidth="304.0">
+              <xAxis>
+                <CategoryAxis side="BOTTOM" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis side="LEFT" />
+              </yAxis>
+            </BarChart>
+            <Label layoutX="140.0" layoutY="5.0" text="Statistique">
+               <font>
+                  <Font name="Vivaldi Italic" size="18.0" />
+               </font></Label>
+            <ImageView fitHeight="150.0" fitWidth="34.0" layoutX="-45.0" layoutY="-61.0" pickOnBounds="true" preserveRatio="true" />
+         </children></AnchorPane>
+      <AnchorPane layoutX="877.0" layoutY="13.0" prefHeight="152.0" prefWidth="269.0" style="-fx-background-color: #338aec;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="223.0" layoutX="59.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/R.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="2.0" layoutY="11.0" text="trial flight" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="22.0" layoutY="42.0" text="435$" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="27.0" fitWidth="44.0" layoutX="1180.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/3916869%20-%20Copie.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="1170.0" layoutY="68.0" text="Voir plus">
+         <font>
+            <Font name="Vivaldi Italic" size="18.0" />
+         </font></Label>
+      <ImageView fitHeight="27.0" fitWidth="66.0" layoutX="229.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/723955.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="22.0" fitWidth="27.0" layoutX="522.0" layoutY="767.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/3536505.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="22.0" fitWidth="27.0" layoutX="599.0" layoutY="768.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/4102964.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="22.0" fitWidth="27.0" layoutX="478.0" layoutY="767.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/174848.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="27.0" fitWidth="36.0" layoutX="558.0" layoutY="764.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/4926637.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
